@@ -1,27 +1,66 @@
-# Marvellous project
+# Markdown testing
 
-## Alex Coady (@coadycodes)
+## Alex Coady (@alexcoady)
 
-## Description
-Project description
+## Underscore copy that should not be italic
+this_text_should_not_be_italic
 
-[Example Link](http://www.google.com "Example Link")
+## Auto marking up links
+This link should get parsed all nice: http://example.com
 
-## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
+## Strikethrough text
+~~Strike out~~
+
+## Fenced code blocks
+
 ```
 function test() {
-  console.log("Printing a tester");
+  console.log("notice the blank line before this function?");
 }
 ```
-## Links to External Libraries
- NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
 
-[Example Link](http://www.google.com "Example Link")
+## PHP fenced code
 
-## Images & Videos
-NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
+```php
+function test() {
+  print_r('testing testing');
+}
+```
 
-![Example Image](project_images/cover.jpg?raw=true "Example Image")
+## Tables
 
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+### Default
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+### With outer pipes
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+### Scruffy syntax
+
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | Display the help window.|
+| Close     | Closes a window     |
+
+### Scruffy syntax with italics/strikethroughs etc
+
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | ~~Display the~~ help window.|
+| Close     | _Closes_ a window     |
+
+### Aligned text
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
